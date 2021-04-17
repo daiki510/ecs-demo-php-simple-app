@@ -10,9 +10,9 @@
         {
             "environment": [],
             "name": "simple-app",
-            "image": "amazon/amazon-ecs-sample",
+            "image": "457792980734.dkr.ecr.ap-northeast-1.amazonaws.com/amazon-ecs-sample:app-latest",
             "cpu": 10,
-            "memory": 500,
+            "memory": 300,
             "portMappings": [
                 {
                     "containerPort": 80,
@@ -39,7 +39,7 @@
             "memory": 500,
             "volumesFrom": [
             {
-              "sourceContainer": "simple-app"
+                "sourceContainer": "simple-app"
             }
             ],
             "entryPoint": [

@@ -36,7 +36,7 @@
             "name": "busybox",
             "image": "busybox",
             "cpu": 10,
-            "memory": 500,
+            "memory": 300,
             "volumesFrom": [
             {
                 "sourceContainer": "simple-app"
